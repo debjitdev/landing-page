@@ -5,39 +5,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-    <header>
-        <nav class="navbar">
-            <div class="container">
-                <!-- Logo Start -->
-                <div class="logo">
-                    <a href="index.html">Header Logo</a>
-                </div>
-                <!-- Logo End -->
-                <!-- Menu Start -->
-                <div class="main-menu" id="mainNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#section_1">Link 1</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#section_2">Link 2</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#section_3">Link 3</a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- Menu End -->
-            </div>
-        </nav>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">Header Logo</div>
+            <ul class="nav-links">
+                <li><a href="#">header link one</a></li>
+                <li><a href="#">header link two</a></li>
+                <li><a href="#">header link three</a></li>
+            </ul>
+        </div>
     </header>
-    <main></main>
-    <footer></footer>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>This website is awesome</h1>
+                <p>This website has some subtext that goes here under the main title. It's a smaller font and the color
+                    is lower contrast.</p>
+                <button>Sign up</button>
+            </div>
+            <div class="hero-image">
+                <div class="placeholder">this is a placeholder for an image</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- INFO SECTION -->
+    <section class="info">
+        <div class="container">
+            <h2>Some random information.</h2>
+            <div class="info-boxes">
+                <div class="box">
+                    <div class="box-img"></div>
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
+                <div class="box">
+                    <div class="box-img"></div>
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
+                <div class="box">
+                    <div class="box-img"></div>
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
+                <div class="box">
+                    <div class="box-img"></div>
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- QUOTE -->
+    <section class="quote">
+        <div class="container">
+            <p class="quote-text">
+                This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space,
+                or maybe people will actually read it. Who knows? All I know is that it looks nice.
+            </p>
+            <p class="quote-author">-Thor, God of Thunder</p>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+        <div class="container cta-box">
+            <div>
+                <h3>Call to action! It's time!</h3>
+                <p>Sign up for our product by clicking that button right over there!</p>
+            </div>
+            <button class="cta-btn">Sign up</button>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <p>Copyright © The Odin Project 2021</p>
+        </div>
+    </footer>
+
 </body>
 
-</html
+</html>
