@@ -4,11 +4,11 @@ This repository contains the code for a basic landing page built with HTML and C
 
 ## Features
 
--> Clean and modern layout
--> Lightweight and easy to customize
+- Clean and modern layout
+- Lightweight and easy to customize
 
 ## Tech Stack
 
--> HTML
--> CSS - Mainly using flex
+- HTML
+- CSS - Mainly using flex
 
